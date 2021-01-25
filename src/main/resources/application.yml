@@ -1,0 +1,13 @@
+
+
+
+feature:
+  topics: chatTopic
+
+consumer:
+  bootstrap-servers: 127.0.0.1:9092
+  offset: earliest
+producer:
+  bootstrap-servers: 127.0.0.1:9092
+server:
+  port: 8081
